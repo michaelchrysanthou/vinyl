@@ -93,64 +93,62 @@ body, html {
 /* SIGN UP SECTION */
 
 .container {
-    background: #fff;
+    background-color: white;
     padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    width: 100%;
-  }
+    width: 300px;
+}
 
-  h2 {
+.container h2 {
     text-align: center;
-  }
+    margin-bottom: 20px;
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
+.form-group {
+    margin-bottom: 15px;
+}
 
-  input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
     border-radius: 4px;
-  }
+    border: 1px solid #ccc;
+}
 
-  button {
+.form-group button {
+    width: 100%;
     padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007BFF;
     border: none;
-    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
-  }
+    border-radius: 4px;
+}
 
-  button:hover {
-    background-color: #0056b3;
-  }
+.form-group button:hover {
+    background-color: #45a049;
+}
 
-  .switch {
+.toggle-link {
     text-align: center;
     margin-top: 10px;
-  }
+}
 
-  .switch a {
-    color: #007BFF;
-    cursor: pointer;
+.toggle-link a {
+    color: #4CAF50;
     text-decoration: none;
-  }
+}
 
-  .switch a:hover {
+.toggle-link a:hover {
     text-decoration: underline;
-  }
-
-  .hidden {
-    display: none;
-  }
-
+}
 
 /* SIGN UP SECTION */
 
